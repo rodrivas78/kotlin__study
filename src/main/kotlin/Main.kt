@@ -1,6 +1,6 @@
 fun main(args: Array<String>) {
 
-//---------------------------------------------Lambdas-------------------------------------------------------
+//---------------------------------------------Lambda Expressions-------------------------------------------------------
 
     //val lambdaName : Type = { argumentList -> codeBody }
 
@@ -63,11 +63,8 @@ fun main(args: Array<String>) {
     //it
     val array = arrayOf(1, 2, 3, 4 ,5, 6)
 
+    println("log 8: (it): ")
     array.forEach { item -> println(item * 2) }
     array.forEach { println(it * 4) }
 
-    println("log 8: (it and forEach): ")
-    println(array)
-
-    
 }
